@@ -1,5 +1,5 @@
 html {
-  font-size: rem(16);
+  font-size: rem(20);
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,11 +14,22 @@ html {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 body {
   margin: 0;
   padding: 0;
   line-height: 1.3;
-  overflow: hidden;
+  font-size: 2rem;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 2rem;
 }
